@@ -1,0 +1,58 @@
+.post-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .post-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post-page time {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .author {
+    color: #888;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  
+  .edit-row {
+    margin-top: 10px;
+  }
+  
+  .edit-btn {
+    display: inline-flex;
+    align-items: center;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .edit-btn svg {
+    margin-right: 5px;
+  }
+  
+  .image {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    margin-top: 20px;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    .post-page {
+      padding: 10px;
+    }
+  }
+  
